@@ -56,6 +56,11 @@
     left: 28px;
 }
 
+#tiny {
+    margin-top: -10px;
+    font-family: sans-serif;
+}
+
 body {
     padding: 0px;
     height: 100%;
