@@ -1,0 +1,63 @@
+#pudding {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-image: url(fish.png);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.9);
+}
+
+#hat {
+    position: absolute;
+    z-index: 2;
+    width: 35px;
+    top: -40px;
+    left: 25px;
+}
+
+#stsctr {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#gordonctr {
+    width: 100px;
+    height: 330px;
+    position: absolute;
+    width: 100px;
+    right: 2%;
+    bottom: -200px;
+}
+
+#gordon {
+    position: absolute;
+    width: 100px;
+}
+
+#gordonhat {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    top: -40px;
+    left: 28px;
+}
+
+body {
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+}
